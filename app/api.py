@@ -15,3 +15,11 @@ def find_by_ingredients(base_url, api_key, num_recipes, ingredients):
 
     return response.json()
 
+
+def get_recipe_url(base_url, api_key, recipe_id):
+    endpoint = f"{base_url}/recipes/{recipe_id}/information"
+    params = {"apiKey": api_key}
+    response = requests.get(endpoint, params=params)
+    response.raise_for_status()
+    
+    return response.json().get("sourceUrl")

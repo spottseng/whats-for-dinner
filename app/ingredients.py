@@ -10,8 +10,12 @@ def load_ingredients():
 
     ingredients = []
     for section in data.values():
-        if section:
+        if isinstance(section, list):
             ingredients.extend(section)
+        elif isinstance(section, dict):
+            for subsection in section.values():
+                if isinstance(subsection, list) and subsection:
+                    ingredients.extend(subsection)
             
     return ingredients
      

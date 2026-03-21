@@ -7,11 +7,77 @@ fridge:
   - ground turkey
   - brussel sprouts
   - garlic
+  - sweet potatoes
+  - cucumber
+  - smoked salmon
+  - feta cheese
+  - lemon
+  - red onion
+  - cilantro
+
 
 pantry:
-  - corn tortillas
-  - black beans
-  - green chilis
-  - pinto beans
-  - rice
-  - couscous
+  grains:
+    - rice
+    - couscous
+    - rice noodles
+    - rice cakes
+    - granola
+    - corn tortillas
+  legumes:
+    - black beans
+    - pinto beans
+  nuts_and_seeds:
+    - almonds
+    - pumpkin seeds
+  condiments:
+    - salsa
+    - peanut butter
+    - soy sauce
+    - jam
+    - apple cider vinegar
+  oils:
+    - coconut oil
+    - olive oil
+    - vegetable oil
+  snacks:
+    - tortilla chips
+  other:
+    - green chiles
+
+
+spice rack:
+  - basil
+  - cardamom
+  - cayenne pepper
+  - chili powder
+  - chives
+  - cinnamon
+  - cloves
+  - coriander
+  - cumin
+  - curry powder
+  - dill weed
+  - fajita seasoning
+  - fennel
+  - minced garlic
+  - garlic powder
+  - ground ginger
+  - italian seasoning
+  - mustard powder
+  - nutmeg
+  - old bay seasoning
+  - onion powder
+  - oregano
+  - paprika
+  - parsley
+  - red pepper flakes
+  - rosemary
+  - sesame seed
+  - thyme
+  - turmeric
+  - ground white pepper
+  - bay leaves
+  - taco seasoning
+  - salt
+  - pepper
